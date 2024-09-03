@@ -1,0 +1,16 @@
+{
+    "name": "Clicker.Models.Clients",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9fabbacbdbc1047b0bfb1fc3fcb6709e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
