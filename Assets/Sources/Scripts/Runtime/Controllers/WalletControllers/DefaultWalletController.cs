@@ -18,8 +18,6 @@ namespace Sources.Scripts.Runtime.Controllers.WalletControllers
         {
             if (_wallet.TryAddMoney(money) == false)
                 Debug.LogError("Couldn't give money");
-
-            Debug.Log(_wallet.Value);
         }
     }
 }

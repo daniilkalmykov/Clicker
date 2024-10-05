@@ -1,11 +1,8 @@
 {
-    "name": "Clicker.Controllers",
+    "name": "Clicker.Views",
     "rootNamespace": "",
     "references": [
-        "GUID:63cd7ad5824484fc2953c20bc603d937",
-        "GUID:0febf651add9c4b5bafb5e6fbf0a232e",
-        "GUID:9319550d6b3f4cb2b7c9eea4f2b1abba",
-        "GUID:9e6a9e6fced44c16bc269a84a56a9d2f"
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
