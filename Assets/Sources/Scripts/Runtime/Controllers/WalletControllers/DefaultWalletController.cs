@@ -8,17 +8,15 @@ namespace Sources.Scripts.Runtime.Controllers.WalletControllers
     internal sealed class DefaultWalletController : IWalletController
     {
         private readonly IWallet _wallet;
-        private readonly int _moneyToAdd;
 
-        public DefaultWalletController(int moneyToAdd, IWallet wallet)
+        public DefaultWalletController(IWallet wallet)
         {
-            _moneyToAdd = moneyToAdd;
             _wallet = wallet;
         }
         
-        public void AddMoney()
+        public void AddMoney(int money)
         {
-            if (_wallet.TryAddMoney(_moneyToAdd) == false)
+            if (_wallet.TryAddMoney(money) == false)
                 Debug.LogError("Couldn't give money");
 
             Debug.Log(_wallet.Value);

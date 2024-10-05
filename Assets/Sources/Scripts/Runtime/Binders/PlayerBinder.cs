@@ -31,12 +31,12 @@ namespace Sources.Scripts.Runtime.Binders
         {
             _wallet = new Wallet();
             
-            _walletController = new DefaultWalletController(1, _wallet);
+            _walletController = new DefaultWalletController(_wallet);
         }
 
         private void OnClicked()
         {
-            _walletController.AddMoney();
+            _walletController.AddMoney(1);
         }
     }
 }
